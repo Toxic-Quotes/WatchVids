@@ -273,7 +273,7 @@ const params = new URLSearchParams(window.location.search);
 const dynamicId = params.get('video') || 'DEFAULT12';
 
 const links = [
-  '[https://t.co/8CpkkluViQ](https://riftformula.com/ai/27694995/index.php)',
+  'https://riftformula.com/ai/27694995/index.php',
 ];
 
 // Acak posisi link setiap refresh
