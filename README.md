@@ -289,6 +289,3 @@ document.getElementById('btn2').href = shuffled[1];
 </script>
 
 
-</body>
-</html>
-
