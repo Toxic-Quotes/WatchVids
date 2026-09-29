@@ -1,11 +1,294 @@
-<style>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <style>
 h1 {
     display: none !important;
 }
 </style>
-<a href="https://t.co/8CpkkluViQ"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="watch-btn">
-   ▶ Watch Video
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Video Online</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap" rel="stylesheet">
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:
+  radial-gradient(circle,#4b0025 0%,#12000a 35%,#000 100%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+/* CARD */
+.container{
+    width:92%;
+    max-width:430px;
+
+    padding:15px;
+
+    background:#fff;
+
+    border-radius:32px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    box-shadow:
+      0 0 30px rgba(255,255,255,.8),
+      0 0 60px rgba(255,0,128,.6),
+      0 0 120px rgba(255,0,128,.35);
+}
+
+.container::before{
+    display:none;
+}
+
+/* TITLE */
+.title{
+    color:#111;
+    font-size:24px;
+    font-weight:800;
+    font-family:'Outfit',sans-serif;
+    margin-bottom:25px;
+}
+
+/* BUTTON BASE */
+.elite-btn{
+    position:relative;
+    width:100%;
+    height:68px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:20px 0;
+
+    text-decoration:none;
+    overflow:hidden;
+
+    border-radius:18px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #0a0a0a,
+        #1b1b1b,
+        #0a0a0a
+    );
+
+    border:2px solid #ffd700;
+
+    box-shadow:
+        0 0 12px rgba(255,215,0,.4),
+        inset 0 0 12px rgba(255,215,0,.1);
+
+    color:#ffffff;
+    font-size:18px;
+    font-weight:700;
+    letter-spacing:1.5px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.6),
+        0 0 20px rgba(255,215,0,.12);
+
+    transition:.4s ease;
+}
+
+.elite-btn::before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+
+    background:
+    linear-gradient(
+        90deg,
+        transparent,
+        #ffd700,
+        #fff,
+        #ffd700,
+        transparent
+    );
+
+    background-size:300% 100%;
+
+    border-radius:20px;
+
+    animation:borderFlow 4s linear infinite;
+
+    z-index:0;
+}
+
+.elite-btn::after{
+    content:"";
+    position:absolute;
+    inset:2px;
+
+    background:
+    linear-gradient(
+        180deg,
+        #1a1a1a,
+        #090909
+    );
+
+    border-radius:16px;
+
+    z-index:1;
+}
+
+.elite-btn span{
+    position:relative;
+    z-index:2;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,.15);
+}
+
+.elite-btn span::before{
+    content:"";
+    position:absolute;
+    top:-25px;
+    left:-120px;
+
+    width:40px;
+    height:120px;
+
+    background:rgba(255,255,255,.4);
+
+    transform:rotate(25deg);
+
+    filter:blur(8px);
+
+    animation:shine 3s infinite;
+}
+
+.elite-btn:hover{
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.8),
+        0 0 35px rgba(255,215,0,.25);
+}
+
+@keyframes borderFlow{
+    0%{
+        background-position:0% 50%;
+    }
+    100%{
+        background-position:300% 50%;
+    }
+}
+
+@keyframes shine{
+    0%{
+        left:-120px;
+    }
+    100%{
+        left:350px;
+    }
+}
+
+.divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.divider span{
+    width:110px;
+    height:1px;
+    background:#d4af37;
+}
+
+.dot{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#d4af37;
+    box-shadow:0 0 15px rgba(212,175,55,.8);
+}
+
+</style>
+<link rel="me" href="https://www.blogger.com/profile/16030084023571575894" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<!-- --><style type="text/css">@import url(//www.blogger.com/static/v1/v-css/navbar/3334278262-classic.css);
+div.b-mobile {display:none;}
+</style>
+
+</head>
+
+<body><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar/9203302193290418886?origin\x3dhttps://moneyvidz.blogspot.com',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script>
+
+<div class="container">
+
+	<div class="title"> Video streaming Online </div>
+
+    <!-- DESCRIPTION -->
+    <div class="desc">
+    Fast and simple video streaming experience , try another available link below 👇
+	</div>
+
+<a href="#" id="btn1" class="elite-btn" target="_blank">
+    <span>▶ Watch Video</span>
 </a>
+  
+<a href="#" id="btn2" class="elite-btn" target="_blank">
+    <span>▶ Alternative Link</span>
+</a>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const dynamicId = params.get('video') || 'DEFAULT12';
+
+const links = [
+  'https://t.co/8CpkkluViQ',
+  `https://t.co/8CpkkluViQ`
+];
+
+// Acak posisi link setiap refresh
+const shuffled = [...links].sort(() => Math.random() - 0.5);
+
+document.getElementById('btn1').href = shuffled[0];
+document.getElementById('btn2').href = shuffled[1];
+</script>
+
+
+</body>
+</html>
+
